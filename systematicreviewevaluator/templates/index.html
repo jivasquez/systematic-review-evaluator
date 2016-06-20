@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <div class="home_main">
+        <h1><center>Upload a RIS file to analyze</center></h1>
+        <form class="form-inline well home_form" action="/analyze" method="POST" enctype="multipart/form-data">
+            <center>
+                
+                <div class="form-group">
+                    <input type="file" name="ris_document" id="ris_document">
+                </div>
+                <button type="submit" class="btn btn-primary">Analize</button>
+            </center>
+        </form>
+    </div>
+{% endblock %}

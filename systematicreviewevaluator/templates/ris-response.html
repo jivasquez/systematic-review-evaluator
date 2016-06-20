@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <div class="home_main">
+        <div class="well {{box_class}}">
+        	<h2>Predicted classification: <strong>{{text}}</strong></h2>
+        	<h3>Score: <strong>{{score}}</strong></h3>
+
+        </div>
+    </div>
+{% endblock %}

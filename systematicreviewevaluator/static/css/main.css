@@ -1,0 +1,24 @@
+.main {
+    background-color:   rgba(32, 75, 88, 0.33);
+}
+.home_main {
+    margin-top: 150px;
+}
+.well.home_form {
+    background-color: #69B9FF;
+}
+.home_main h1 {
+    margin-bottom: 40px;
+}
+.home_main .well.systematic-review {
+    background-color: #008800;
+}
+.home_main .well.very-probably-systematic-review {
+    background-color: rgba(0, 255, 90, 0.19);
+}
+.home_main .well.probably-systematic-review {
+    background-color: rgba(0, 137, 255, 0.21);
+}
+.home_main .well.not-systematic-review {
+    background-color: #FF4D00;
+}
